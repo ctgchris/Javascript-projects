@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+main {
+    width: 90vw;
+    max-width: 600px;
+    max-height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.sg-logo {
+    width: 50%;
+    justify-self: center;
+}
+
+.final-game-img {
+    width: 100%;
+}
+
+.welcome-msg {
+    font-size: 18px;
+}
+
+.options {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.options img {
+    width: 100%;
+    max-width: 130px;
+    border: 2px solid transparent;
+    border-radius: 15%;
+    transition: all 300ms;
+}
+
+.options img:hover,
+.options img:focus {
+    border: 2px solid #F44788;
+    box-shadow: 0 10px 30px rgba(244, 71, 136, 0.2);
+}
+
+.reset-game {
+    width: 150px;
+    height: 75px;
+    align-self: center;
+    background-color: #201E1F;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.reset-game:hover {
+    border: 1px solid #f44788;
+    box-shadow: 0 10px 30px rgba(244, 71, 136, 0.2);
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.update {
+    height: 40px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.gameover-update {
+    font-size: 18px;
+    color: #F44788;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (min-width: 640px) {
+    main {
+        gap: 30px;
+    }
+
+    .welcome-msg,
+    .update,
+    .gameover-update {
+        font-size: 20px;
+    }
+
+    .score {
+        padding-bottom: 20px;
+    }
+
+}

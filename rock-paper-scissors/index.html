@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="favicon.ico">
+    <title>The Final Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <main>
+        <img class="sg-logo" src="images/fsociety-logo.jpg" alt="f-society logo">
+        <h3 class="welcome-msg">Your files are encrypted,  Employee #<span class="player-num"></span> at Ecorp. </h3>
+        <p class="rules"> To get the key to decrypt files, you must beat Mr. Robot in a game of Rock, Paper, Scissors. First to 5 wins. If you lose, we'll brick your entire system. -fsociety</p>
+        <div class="options">
+            <div class="rock">
+                <img class="playerChoice" src="images/rock.svg" alt="rock button">
+                <p>Rock</p>
+            </div>
+            <div class="paper">
+                <img class="playerChoice" src="images/paper.svg" alt="paper button">
+                <p>Paper</p>
+            </div>
+            <div class="scissors">
+                <img class="playerChoice" src="images/scissors.svg" alt="scissors button">
+                <p>Scissors</p>
+            </div>
+            <button class="reset-game hide">Play Again!</button>
+        </div>
+        <div class="score">
+            <div>
+                <h2>Employee <span class="player-num"></span></h2>
+                <h2 id="playerScore">0</h2>
+            </div>
+            <div>
+                <h2>Front Man</h2>
+                <h2 id="frontmanScore">0</h2>
+            </div>
+        </div>
+        <div class="status">
+            <p class="update"></p>
+            <p class="gameover-update hide"></p>
+        </div>
+    </main>
+</body>
+</html>
