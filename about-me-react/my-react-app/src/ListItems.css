@@ -1,0 +1,17 @@
+li {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0; /* Add some spacing between list items */
+    font-size: 30px;
+}
+
+.hobbyItems {
+    width: 80%; /* Set the width of the list container to 80% */
+    margin: auto; /* Horizontally center the list */
+    padding: 0; /* Remove any default padding */
+    list-style: none; /* Remove list bullet points */
+    background-color: #90a0d9;
+    border-radius: 1rem;
+
+
+}
