@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="spacing"></div>
+    <div class="container">
+      <div class="header">
+        <h1>Mini Library</h1>
+        <p>
+          This is a Mini Library System created using HTML, CSS, and JavaScript.
+        </p>
+      </div>
+      <div class="content">
+        <table>
+          <th class="th_title">Title</th>
+          <th class="th_author">Author</th>
+          <th class="th_pages">Pages</th>
+          <th class="th_status">Status</th>
+          <th class="th_delete">Action</th>
+        </table>
+
+        <hr />
+
+        <div class="showForm">
+          <button id="add_book">+</button>
+        </div>
+
+        <div id="submitForm" style="visibility: hidden">
+          <form class="formGrid">
+            <div>
+              <label for="title">Book Title</label>
+              <input
+                type="text"
+                name="submitTitle"
+                id="title"
+                minlength="3"
+                required
+              />
+            </div>
+            <div>
+              <label for="title">Author</label>
+              <input
+                type="text"
+                name="submitAuthor"
+                id="author"
+                minlength="3"
+                required
+              />
+            </div>
+            <div>
+              <label for="numPages">Number of Pages</label>
+              <input
+                type="number"
+                name="submitPages"
+                id="numPages"
+                max="10000"
+                required
+              />
+            </div>
+            <div>
+              <label for="status">Status</label>
+              <select name="submitStatus" id="status">
+                <option value="Read">Read</option>
+                <option value="Not Read" selected>Not Read</option>
+              </select>
+            </div>
+            <div class="submitGrid">
+              <button class="submitButton">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="spacing"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
