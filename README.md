@@ -1,7 +1,7 @@
 # projects
 https://ctgchris.github.io/projects/
 
-https://ctgchris.github.io/projects/memory-game
+https://ctgchris.github.io/projects/library
 
 https://ctgchris.github.io/projects/sign-up-form
 
