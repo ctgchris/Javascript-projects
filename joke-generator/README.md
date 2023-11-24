@@ -1,5 +1,5 @@
-#This project uses NodeJS and can't be displayed on GitHub pages.
+# This project uses NodeJS and can't be displayed on GitHub pages.
 
-##Preview:
+## Preview:
 ![GitHub Logo](./preview.png)
 
