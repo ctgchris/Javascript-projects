@@ -1,5 +1,4 @@
-Dennis Dust
-
+Christopher Giang
 
 Tic-Tac-Toe
 
@@ -7,4 +6,4 @@ Tic-Tac-Toe
 HTML CSS & JS
 
 
-LIVE:  https://sinned8.github.io/Tic-Tac-Toe/
+LIVE:  https://ctgchris.github.io/projects/tic-tac-toe/
