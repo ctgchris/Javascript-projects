@@ -1,5 +1,5 @@
 # projects
-#Basic javascript projects I made when learning HTML/CSS/Javascript
+## Basic javascript projects I made when learning HTML/CSS/Javascript
 
 https://ctgchris.github.io/projects/library
 
