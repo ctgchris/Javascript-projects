@@ -1,6 +1,9 @@
 # projects
 ## Basic javascript projects I made when learning HTML/CSS/Javascript
 
+
+https://ctgchris.github.io/projects/admin-dashboard
+
 https://ctgchris.github.io/projects/library
 
 https://ctgchris.github.io/projects/sign-up-form
